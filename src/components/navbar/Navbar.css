@@ -1,0 +1,27 @@
+
+.navbar .navbar-nav .nav-item .btn {
+    margin-right: 40px; /* Add space between buttons */
+    color: #fff; /* Set text color to white */
+    border-color: blue; /* Set border color to match background color */
+  }
+  
+  .navbar .navbar-nav .nav-item .btn:hover {
+    background-color: blue; /* Darker green on hover */
+    border-color: blue; /* Darker border color on hover */
+  }
+.container{
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 100%;
+}
+.navbar{
+    background-color: black;
+    margin: 0em;
+    top: 0;
+    width: 100%;
+}
+.btn{
+    margin: 10px;
+}
+
+

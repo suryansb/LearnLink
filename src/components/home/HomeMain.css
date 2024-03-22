@@ -1,0 +1,96 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Adjusted column widths */
+    grid-template-rows: auto auto; /* Added another row */
+    gap: 0;
+    position: absolute;
+
+    margin: 0;
+  }
+  
+  .grid-item {
+    border: 1px solid purple;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .grid-item:nth-child(3) {
+    grid-column: 1 / span 2; 
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .grid-item p {
+    margin: 0;
+  }
+
+  .text{
+    background-color: #102D3F;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    padding: 20% 10% 20% 10% ;
+    font-size: 300%;
+
+  }
+  .btn{
+    margin: 5%  8% 0 8%;
+  }
+  .vision{
+    background-color: #102D3F;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 300%;
+    padding: 3% 20% 10% 20%;
+    
+  }
+  .content{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 50%;
+
+  }
+  span{
+    font-size: 100%;
+  }
+
+  .line1{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 100%;
+  }
+
+  ul{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 50%;
+    text-align: left;
+  }
+  li{
+    padding: 1%;
+  }
