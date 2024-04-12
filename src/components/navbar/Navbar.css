@@ -1,13 +1,13 @@
 
 .navbar .navbar-nav .nav-item .btn {
-    margin-right: 40px; /* Add space between buttons */
-    color: #fff; /* Set text color to white */
-    border-color: blue; /* Set border color to match background color */
+    margin-right: 40px; 
+    color: #fff; 
+    border-color: blue; 
   }
   
   .navbar .navbar-nav .nav-item .btn:hover {
-    background-color: blue; /* Darker green on hover */
-    border-color: blue; /* Darker border color on hover */
+    background-color: blue; 
+    border-color: blue; 
   }
 .container{
   margin-bottom: 0;

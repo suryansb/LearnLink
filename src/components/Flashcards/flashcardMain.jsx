@@ -4,14 +4,14 @@ import img1 from "../../assets/img/main2.png"
 function FlashcardMain () {
     return (
       <>
-              <h1>
-                  <img src={img1}/>
-              </h1>
+        <h1>
+          <img src={img1}/>
+        </h1>
         <div className="container">
           <div className="row mt-5">
             <div className="col-md-12" style={{"textAlign":"center","marginBottom":"4%"}}>
               <div className="input1-row">
-                <input type="text" className="form-control" placeholder="Enter input 1"/>
+                <input type="text" className="form-control" placeholder="Enter content you want to convert to flashcard "/>
               </div>
               <br />
               <div className="row">
