@@ -1,0 +1,20 @@
+/* CSS for flashcard */
+.flashcard-container {
+    display: flex;
+    flex-direction: column; /* Display flashcards in a column */
+    align-items: center; /* Center flashcards horizontally */
+    margin-top: 50px; /* Adjust margin-top as needed */
+}
+
+.flashcard {
+    width: 50%; /* Set the width of the flashcard */
+    background-color: purple; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 20px; /* Add padding for better appearance */
+    text-align: center; /* Center-align text */
+    margin-bottom: 20px; /* Add margin between flashcards */
+}
+
+.flashcard h2 {
+    margin: 0; /* Remove default margin for h2 */
+}

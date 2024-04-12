@@ -1,7 +1,8 @@
 import './HomeMain.css'
 import img1 from '../../assets/img/cover.jpg'
 import { Link } from 'react-router-dom';
-function HomeMain () {
+
+function HomeMain() {
 
     return (
         <>

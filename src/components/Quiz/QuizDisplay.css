@@ -1,0 +1,33 @@
+.quiz-container {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px; /* Add some padding around the quiz container */
+    border-radius: 10px; /* Rounded corners for the quiz container */
+}
+
+.question-container {
+    margin-bottom: 20px; /* Add some space between each question */
+    text-align: left;
+    margin-top: 30px;
+}
+
+.question {
+    font-size: 18px; /* Increase font size for better readability */
+    margin-bottom: 10px; /* Add some space below the question */
+    
+}
+
+.options-list {
+    list-style-type: none; /* Remove bullet points from options */
+    padding: 0; /* Remove default padding */
+    background-color: #ffefef;
+}
+
+.option {
+    font-size: 16px; /* Increase font size for options */
+    margin-bottom: 5px; /* Add some space between each option */
+    cursor: pointer; /* Change cursor to pointer to indicate clickable option */
+}
+
+.option:hover {
+    background-color: #e9ecef; /* Light gray background on hover for better interaction */
+}
